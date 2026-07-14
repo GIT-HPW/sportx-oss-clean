@@ -1,6 +1,16 @@
 # SportX
 
-SportX is a static sports schedule dashboard for tracking global football and basketball events, followed players, calendar planning, and lightweight match prediction.
+**Plan global football and basketball schedules in one responsive dashboard.**
+
+[![Live Demo](https://img.shields.io/badge/Live_Demo-GitHub_Pages-0969da?logo=github)](https://git-hpw.github.io/sportx-oss-clean/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![No build step](https://img.shields.io/badge/build-none-2ea44f)](#quick-start)
+
+[**Live demo**](https://git-hpw.github.io/sportx-oss-clean/) · [Report a bug](https://github.com/GIT-HPW/sportx-oss-clean/issues) · [Request a feature](https://github.com/GIT-HPW/sportx-oss-clean/issues)
+
+![SportX sports schedule dashboard preview](assets/sportx-focus-board.svg)
+
+SportX is a static sports schedule dashboard for tracking global football and basketball events, followed players, calendar planning, and lightweight match prediction. It runs directly in the browser with no framework, package installation, or build step.
 
 > **Project status:** `v0.1.0-alpha`. SportX is an independent prototype, not a production service. Interfaces and upstream data availability may change.
 
@@ -18,7 +28,7 @@ This repository is the open-source clean edition. It does not include third-part
 - Lightweight win probability estimate for planning reference.
 - High-tech animated background and responsive layout.
 
-## Run Locally
+## Quick Start
 
 This is a static prototype. No build step is required.
 
@@ -29,6 +39,8 @@ python -m http.server 8080
 ```
 
 Then open `http://localhost:8080/`.
+
+You can also explore the hosted version at **https://git-hpw.github.io/sportx-oss-clean/**.
 
 Opening `index.html` directly may work, but some browsers restrict runtime network requests from `file://` pages. See [MOBILE_QUICK_START.md](MOBILE_QUICK_START.md) for phone testing on a trusted local network.
 
@@ -97,6 +109,6 @@ This clean edition is intended to be safe to publish as code. Before publishing 
 
 ## License
 
-MIT License. See `LICENSE`.
+MIT License. See [LICENSE](LICENSE).
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) before submitting changes and [SECURITY.md](SECURITY.md) for vulnerability reports.
