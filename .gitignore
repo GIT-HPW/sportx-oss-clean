@@ -1,0 +1,10 @@
+.agents/
+.codex/
+android-*.png
+http-server.*.log
+*.log
+.DS_Store
+Thumbs.db
+.env
+.env.*
+!.env.example
